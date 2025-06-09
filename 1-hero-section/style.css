@@ -1,9 +1,156 @@
 .login {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
 }
 
 * {
     font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none;
+    color: #1b2230;
+    font-weight: 600;
+}
+
+#hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+.read-more {
+    display: flex;
+    justify-content: center;
+
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #646669;
+}
+
+
+.read-more {
+    color: #4848e0;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+.subheading {
+    padding: 3px 1rem;
+    border: solid #646669 1px;
+    border-radius: 3rem;
+    display: flex;
+    gap: 3px;
+    margin-bottom: 16px;
+
+}
+
+h1 {
+    text-align: center;
+    line-height: 3rem;
+    font-size: 2.986rem;
+    color: #101826;
+
+}
+
+p {
+    text-align: center;
+    color: #55606c;
+}
+
+.action-btn {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 16px;
+}
+
+
+.action-btn a {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.primary {
+    background-color: #4848e0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 9px 12px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+
+h4 svg {
+    stroke: #4848e0;
+}
+
+.glow.pinkshade {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+    z-index: 9;
+    height: 120px;
+    width: 210px;
+    background-color: rgb(220, 69, 94);
+    filter: blur(150px);
+    transform: rotateY(12deg);
+}
+
+.glow.purpleshade {
+    position: absolute;
+    top: -2px;
+    left: 39%;
+    z-index: 9;
+    height: 100px;
+    width: 210px;
+    background-color: #8a0194;
+    filter: blur(136px);
+}
+
+.glow.pinkshade2 {
+    position: absolute;
+    bottom: 8px;
+    right: 0px;
+    z-index: 9;
+    height: 100px;
+    width: 210px;
+    background-color: rgb(220, 69, 94);
+    filter: blur(120px);
 }
 
 /* write your css here */
