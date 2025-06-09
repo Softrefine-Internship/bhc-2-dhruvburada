@@ -1,1 +1,102 @@
 /* write your css here */
+* {
+    font-family: "Inter", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: #212529;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 12px;
+}
+
+#blog {
+    margin: 3rem 5rem;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 2.488rem;
+}
+
+header {
+    margin-bottom: 4rem;
+}
+
+.article {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 4rem;
+}
+
+.metadata {
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
+}
+
+.description {
+    line-height: 1.5;
+    color: #343a40;
+    position: relative;
+    bottom: 15px;
+}
+
+.tag {
+    background-color: #92959d11;
+    padding: 3px 14px;
+    color: #212529;
+    border-radius: 12px;
+
+}
+
+.small {
+    font-size: 0.833rem;
+    color: #495057;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
+.profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+hr {
+    border: #ced4da52 1px solid;
+    position: absolute;
+    width: 100%;
+    top: -20%;
+
+}
+
+h3 {
+    font-weight: 500;
+    position: relative;
+    bottom: 15px;
+}
+
+.author-designation {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
