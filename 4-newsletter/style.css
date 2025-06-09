@@ -43,7 +43,8 @@ button {
 }
 
 .news-letter-container {
-    background-color: #101826;
+
+    background: radial-gradient(at center bottom, #332043, #101826);
     height: 100vh;
     color: white;
     display: flex;
