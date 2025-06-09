@@ -76,6 +76,10 @@ h4 {
 
 }
 
+.subheading h4 {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     line-height: 3rem;
@@ -153,4 +157,8 @@ h4 svg {
     filter: blur(120px);
 }
 
-/* write your css here */
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+}
