@@ -1,1 +1,44 @@
-/* write your css here */
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #101826;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+#call-to-action {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100vh;
+}
+
+img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 100%;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 12px;
+}
+
+.sub-heading {
+    color: #7c8df4;
+
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #28303c;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
