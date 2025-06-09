@@ -1,1 +1,72 @@
-/* write your css here */
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-size: 2.986rem;
+}
+
+#news-letter {
+
+    overflow-y: hidden;
+
+}
+
+button {
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    color: #101826;
+    border-radius: 5px;
+}
+
+#email {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+.subscribe {
+    z-index: 10;
+}
+
+#news-letter p {
+    max-width: 500px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.news-letter-container {
+    background-color: #101826;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    border: 25px solid white;
+    border-radius: 5rem;
+
+
+}
+
+.purple {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-43%, 50%);
+    transform: translateX();
+    background-color: #332043;
+    filter: blur(100px);
+    z-index: 9;
+}

@@ -58,6 +58,7 @@ button {
     width: 100%;
     padding: 9px 12px;
     margin: 14px 0px;
+    cursor: pointer;
 }
 
 .card-container {
