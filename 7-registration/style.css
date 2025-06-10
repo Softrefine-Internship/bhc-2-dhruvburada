@@ -26,7 +26,7 @@ header h1 {
 
 header {
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
@@ -41,7 +41,7 @@ header {
 .form-container {
     background-color: white;
     width: 354px;
-    height: 500px;
+    height: 304px;
     padding: 3rem;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
@@ -145,5 +145,12 @@ svg {
 
 footer {
     margin-top: 30px;
-    color: #5d67735f;
+    margin-bottom: 30px;
+
+    color: #5d6773;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
