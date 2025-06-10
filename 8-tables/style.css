@@ -18,6 +18,58 @@ th {
     text-align: start;
 }
 
-tr:last-child {
-    color: ;
+tr>td:last-of-type {
+    color: #4848e0;
+}
+
+button {
+    background-color: #4848e0;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+
+table {
+    border-collapse: collapse
+}
+
+th,
+td,
+tr {
+    border-bottom: solid 1px #5d67735f;
+    padding: 11px;
+
+}
+
+td {
+    color: #515861e3;
+}
+
+td table {
+    padding: 5px;
+}
+
+td {
+    padding: 11px 3px;
+}
+
+tr> :first-of-type {
+    color: black;
+    font-weight: 500;
 }
