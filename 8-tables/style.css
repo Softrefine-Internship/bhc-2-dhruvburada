@@ -18,7 +18,8 @@ th {
     text-align: start;
 }
 
-tr>td:last-of-type {
+a {
+    text-decoration: none;
     color: #4848e0;
 }
 
@@ -54,6 +55,7 @@ td,
 tr {
     border-bottom: solid 1px #5d67735f;
     padding: 11px;
+    font-size: 0.833rem;
 
 }
 
