@@ -1,1 +1,149 @@
 /* write your css here */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f9fafb;
+}
+
+header img {
+    height: 30px;
+    width: 30px;
+}
+
+header h1 {
+    font-size: 1.728rem;
+    color: #24292f;
+}
+
+header {
+    text-align: center;
+    margin-top: 9rem;
+    margin-bottom: 3rem;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: white;
+    width: 354px;
+    height: 500px;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+label,
+p {
+    font-size: 0.833rem;
+    font-weight: 500;
+}
+
+#mail,
+#password {
+    padding: 5px 9px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border: solid #5d67735f 1px;
+    border-radius: 5px;
+}
+
+.form-extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+.remember-me-container {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.signin-btn {
+    background-color: #4848e0;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #4848e0;
+    font-weight: 500;
+    font-size: 0.833rem;
+}
+
+.other-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 21px;
+}
+
+hr {
+    width: 30%;
+    border-color: #ffffff52;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    gap: 5px;
+    padding: 7px 15px;
+    color: white;
+}
+
+svg {
+    height: 20px;
+    width: 20px;
+    fill: white;
+    stroke: white;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+
+
+}
+
+.twitter {
+    background-color: #009bec;
+
+}
+
+.github {
+    background-color: #24292f;
+}
+
+footer {
+    margin-top: 30px;
+    color: #5d67735f;
+}
