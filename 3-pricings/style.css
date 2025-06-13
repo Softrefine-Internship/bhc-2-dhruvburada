@@ -26,6 +26,11 @@ h1 {
   color: #101826;
 }
 
+h2 {
+  font-size: 2.3rem;
+  color: #101826;
+}
+
 .pricing-info p {
   line-height: 1.5;
   color: #646669;
@@ -68,8 +73,13 @@ button {
 
 small {
   font-size: 10px;
+  color: #464849;
 }
 
+.price {
+  color: oklch(55.1% 0.027 264.364);
+  margin-bottom: 15px;
+}
 .features {
   color: #464849;
   font-weight: 600;
