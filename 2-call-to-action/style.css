@@ -1,54 +1,69 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    background-color: #101826;
-    color: white;
-    font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  background-color: #101826;
+  color: white;
+  font-family: "Inter", sans-serif;
 }
 
 #call-to-action {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
 }
 
 img {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    height: 100%;
-    width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .info {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 5rem;
-    gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5rem;
+  gap: 12px;
 }
 
 .sub-heading {
-    color: #7c8df4;
-
+  color: #7c8df4;
 }
 
 button {
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    background-color: #28303c;
-    color: white;
-    border-radius: 5px;
-    margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #28303c;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
 }
 
 button:hover {
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-    background-color: #232a34;
-    color: white;
-    border-radius: 5px;
-    margin-top: 20px;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #232a34;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+p {
+  line-height: 1.6;
+  font-weight: 400;
+  text-align: left;
+  font-size: 1.1rem;
+  color: oklch(87.2% 0.01 258.338);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 1;
 }

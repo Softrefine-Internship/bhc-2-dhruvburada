@@ -1,102 +1,106 @@
 /* write your css here */
 * {
-    font-family: "Inter", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    color: #212529;
+  font-family: "Inter", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  color: #212529;
 }
 
 img {
-    height: 250px;
-    width: 250px;
-    border-radius: 12px;
+  width: 280px;
+  height: 280px;
+  border-radius: 12px;
+  object-fit: cover;
 }
 
 #blog {
-    margin: 3rem 5rem;
+  margin: 3rem 5rem;
 }
-
 h1 {
-    margin-bottom: 10px;
-    font-size: 2.488rem;
+  font-size: 2.488rem;
+  font-weight: 700;
 }
 
 header {
-    margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 .article {
-    display: flex;
-    gap: 25px;
-    margin-bottom: 4rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 3rem;
 }
 
 .metadata {
-    display: flex;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
 
-    align-items: center;
-    gap: 10px;
+.sub-heading {
+  color: #6c757d;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 .description {
-    line-height: 1.5;
-    color: #343a40;
-    position: relative;
-    bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 .tag {
-    background-color: #92959d11;
-    padding: 3px 14px;
-    color: #212529;
-    border-radius: 12px;
-
+  background-color: #92959d11;
+  padding: 3px 13px;
+  color: #212529;
+  border-radius: 12px;
 }
 
 .small {
-    font-size: 0.833rem;
-    color: #495057;
+  font-size: 0.833rem;
+  color: #495057;
 }
-
 .content {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem; /* controls vertical spacing */
+  justify-content: space-between;
+  padding-top: 4px;
 }
 
 .profile {
-    position: relative;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #e5e5e5;
 }
 
 .profile img {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    object-fit: cover;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 hr {
-    border: #ced4da52 1px solid;
-    position: absolute;
-    width: 100%;
-    top: -20%;
-
+  border: #ced4da52 1px solid;
+  position: absolute;
+  width: 100%;
+  top: -20%;
 }
 
 h3 {
-    font-weight: 500;
-    position: relative;
-    bottom: 15px;
+  font-weight: 600;
+  margin-top: 4px;
 }
 
 .author-designation {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.small {
+  font-size: 0.83rem;
+  color: #6c757d;
 }
