@@ -96,6 +96,9 @@ header {
 header h1,
 label {
   color: #101826;
+}
+
+label {
   margin-bottom: 3px;
 }
 
@@ -193,4 +196,8 @@ form {
   padding: 0 1rem;
   display: block;
   margin: 0px auto;
+}
+
+h1 {
+  margin-bottom: 13px;
 }

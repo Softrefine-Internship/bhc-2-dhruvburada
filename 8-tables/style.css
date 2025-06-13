@@ -66,6 +66,7 @@ tr > :first-of-type {
 
 td {
   color: #4b5563;
+  font-size: 15pxs;
 }
 
 td table {
@@ -82,10 +83,10 @@ tr > :first-of-type {
 }
 
 .title-subtitle h4 {
-  font-size: 1.1rem;
+  font-size: 20px;
   font-weight: 600;
   color: #101828;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 .title-subtitle p {

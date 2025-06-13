@@ -42,10 +42,14 @@ header {
   color: #6c757d;
   font-size: 1rem;
   line-height: 1.5;
+  margin-top: 2.5px;
+  margin-bottom: 25px;
 }
 
 .description {
   margin-bottom: 1rem;
+  line-height: 1.432;
+  color: #565e64;
 }
 
 .tag {
@@ -71,7 +75,7 @@ header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding-top: 0.75rem;
+  padding-top: 1.32rem;
   border-top: 1px solid #e5e5e5;
 }
 
